@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2D Summer Project.Plugins", "2D Summer Project.Plugins.csproj", "{72471DB7-07C9-E4C3-3A3B-3613FB51BD6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2D Summer Project", "2D Summer Project.csproj", "{D8E9ADBE-18B9-FD8A-823F-A75B7BCBDAD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2D Summer Project.Editor", "2D Summer Project.Editor.csproj", "{B56663F2-1F89-E785-A922-97FA3F9AA906}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72471DB7-07C9-E4C3-3A3B-3613FB51BD6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72471DB7-07C9-E4C3-3A3B-3613FB51BD6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72471DB7-07C9-E4C3-3A3B-3613FB51BD6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72471DB7-07C9-E4C3-3A3B-3613FB51BD6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8E9ADBE-18B9-FD8A-823F-A75B7BCBDAD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E9ADBE-18B9-FD8A-823F-A75B7BCBDAD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8E9ADBE-18B9-FD8A-823F-A75B7BCBDAD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E9ADBE-18B9-FD8A-823F-A75B7BCBDAD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B56663F2-1F89-E785-A922-97FA3F9AA906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B56663F2-1F89-E785-A922-97FA3F9AA906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B56663F2-1F89-E785-A922-97FA3F9AA906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B56663F2-1F89-E785-A922-97FA3F9AA906}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
