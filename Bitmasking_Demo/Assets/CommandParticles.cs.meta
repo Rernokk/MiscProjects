@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f4eafb1c1d8ccb14a8ca747c13a2aa38
+timeCreated: 1507229338
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - mat: {fileID: 2100000, guid: 6dcc7d45b0e86e942b42381ebf25896b, type: 2}
+  - renderTar: {fileID: 8400000, guid: e2cfb2a92d44fce429b697553b00a82e, type: 2}
+  - prefab: {fileID: 1010597359497350, guid: dced2aded994582489dfcb56660dfdb1, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

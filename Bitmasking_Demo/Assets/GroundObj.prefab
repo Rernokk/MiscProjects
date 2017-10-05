@@ -1,0 +1,570 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1624523026016378}
+  m_IsPrefabParent: 1
+--- !u!1 &1624523026016378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4057162852890282}
+  - component: {fileID: 212578052213594594}
+  - component: {fileID: 114226610643627650}
+  m_Layer: 0
+  m_Name: GroundObj
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4057162852890282
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1624523026016378}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114226610643627650
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1624523026016378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28ae1388edd8f504bb2a6c40e7ba5e95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myValue: 0
+  myMaskValue: -1
+  TileSet:
+  - {fileID: 21300000, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300002, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300004, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300006, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300008, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300010, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300012, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300014, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300016, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300018, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300020, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300022, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300024, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300026, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300028, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300030, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300032, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300034, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300036, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300038, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300040, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300042, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300044, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300046, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300048, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300050, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300052, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300054, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300056, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300058, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300060, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300062, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300064, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300066, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300068, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300070, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300072, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300074, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300076, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300078, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300080, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300082, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300084, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300086, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300088, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300090, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300092, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  - {fileID: 21300094, guid: 63974e9632250e04394924a6255b324a, type: 3}
+  SpriteTable:
+  - val: 999
+    index: 19
+  - val: 104
+    index: 5
+  - val: 235
+    index: 15
+  - val: 255
+    index: 18
+  - val: 249
+    index: 12
+  - val: 251
+    index: 10
+  - val: 127
+    index: 11
+  - val: 223
+    index: 9
+  - val: 254
+    index: 8
+  - val: 215
+    index: 13
+  - val: 159
+    index: 14
+  - val: 239
+    index: 15
+  - val: 253
+    index: 12
+  - val: 31
+    index: 14
+  - val: 214
+    index: 13
+  - val: 246
+    index: 13
+  - val: 63
+    index: 14
+  - val: 107
+    index: 15
+  - val: 248
+    index: 12
+  - val: 111
+    index: 15
+  - val: 237
+    index: 5
+  - val: 183
+    index: 7
+  - val: 252
+    index: 12
+  - val: 0
+    index: 19
+  - val: 36
+    index: 19
+  - val: 72
+    index: 22
+  - val: 18
+    index: 21
+  - val: 24
+    index: 17
+  - val: 28
+    index: 17
+  - val: 8
+    index: 3
+  - val: 64
+    index: 0
+  - val: 194
+    index: 16
+  - val: 25
+    index: 17
+  - val: 3
+    index: 2
+  - val: 144
+    index: 1
+  - val: 66
+    index: 16
+  - val: 226
+    index: 16
+  - val: 2
+    index: 2
+  - val: 71
+    index: 16
+  - val: 16
+    index: 1
+  - val: 156
+    index: 17
+  - val: 57
+    index: 17
+  - val: 191
+    index: 14
+  - val: 247
+    index: 13
+  - val: 222
+    index: 24
+  - val: 250
+    index: 25
+  - val: 123
+    index: 26
+  - val: 95
+    index: 27
+  - val: 43
+    index: 6
+  - val: 105
+    index: 5
+  - val: 232
+    index: 5
+  - val: 208
+    index: 4
+  - val: 22
+    index: 7
+  - val: 15
+    index: 6
+  - val: 212
+    index: 4
+  - val: 233
+    index: 5
+  - val: 11
+    index: 6
+  - val: 47
+    index: 6
+  - val: 240
+    index: 4
+  - val: 150
+    index: 7
+  - val: 151
+    index: 7
+  - val: 23
+    index: 7
+  - val: 40
+    index: 3
+  - val: 121
+    index: 28
+  - val: 219
+    index: 44
+  - val: 42
+    index: 23
+  - val: 96
+    index: 0
+  - val: 124
+    index: 28
+  - val: 30
+    index: 30
+  - val: 244
+    index: 4
+  - val: 98
+    index: 16
+  - val: 106
+    index: 33
+  - val: 27
+    index: 34
+  - val: 10
+    index: 23
+  - val: 20
+    index: 1
+  - val: 192
+    index: 0
+  - val: 82
+    index: 38
+  - val: 70
+    index: 16
+  - val: 189
+    index: 17
+  - val: 206
+    index: 36
+  - val: 211
+    index: 31
+  - val: 86
+    index: 35
+  - val: 6
+    index: 2
+  - val: 116
+    index: 20
+  - val: 190
+    index: 30
+  - val: 234
+    index: 33
+  - val: 103
+    index: 16
+  - val: 59
+    index: 34
+  - val: 29
+    index: 17
+  - val: 26
+    index: 39
+  - val: 157
+    index: 17
+  - val: 225
+    index: 0
+  - val: 169
+    index: 3
+  - val: 41
+    index: 3
+  - val: 146
+    index: 21
+  - val: 73
+    index: 22
+  - val: 67
+    index: 16
+  - val: 68
+    index: 0
+  - val: 35
+    index: 2
+  - val: 195
+    index: 16
+  - val: 201
+    index: 22
+  - val: 147
+    index: 21
+  - val: 9
+    index: 3
+  - val: 220
+    index: 32
+  - val: 14
+    index: 23
+  - val: 112
+    index: 20
+  - val: 56
+    index: 17
+  - val: 80
+    index: 20
+  - val: 60
+    index: 17
+  - val: 46
+    index: 23
+  - val: 114
+    index: 38
+  - val: 198
+    index: 16
+  - val: 171
+    index: 6
+  - val: 210
+    index: 31
+  - val: 84
+    index: 20
+  - val: 100
+    index: 0
+  - val: 48
+    index: 1
+  - val: 224
+    index: 0
+  - val: 200
+    index: 22
+  - val: 153
+    index: 17
+  - val: 19
+    index: 21
+  - val: 155
+    index: 34
+  - val: 137
+    index: 3
+  - val: 117
+    index: 20
+  - val: 120
+    index: 28
+  - val: 129
+    index: 19
+  - val: 131
+    index: 2
+  - val: 230
+    index: 16
+  - val: 61
+    index: 17
+  - val: 142
+    index: 23
+  - val: 113
+    index: 20
+  - val: 188
+    index: 17
+  - val: 94
+    index: 41
+  - val: 241
+    index: 4
+  - val: 62
+    index: 30
+  - val: 138
+    index: 23
+  - val: 65
+    index: 0
+  - val: 58
+    index: 39
+  - val: 85
+    index: 20
+  - val: 227
+    index: 16
+  - val: 136
+    index: 3
+  - val: 17
+    index: 1
+  - val: 97
+    index: 0
+  - val: 130
+    index: 2
+  - val: 79
+    index: 29
+  - val: 243
+    index: 31
+  - val: 102
+    index: 16
+  - val: 110
+    index: 33
+  - val: 99
+    index: 16
+  - val: 203
+    index: 29
+  - val: 52
+    index: 1
+  - val: 168
+    index: 3
+  - val: 193
+    index: 0
+  - val: 152
+    index: 17
+  - val: 154
+    index: 39
+  - val: 242
+    index: 31
+  - val: 126
+    index: 45
+  - val: 75
+    index: 29
+  - val: 221
+    index: 32
+  - val: 187
+    index: 34
+  - val: 199
+    index: 16
+  - val: 187
+    index: 34
+  - val: 158
+    index: 30
+  - val: 217
+    index: 32
+  - val: 176
+    index: 17
+  - val: 216
+    index: 32
+  - val: 184
+    index: 17
+  - val: 119
+    index: 35
+  - val: 88
+    index: 37
+  - val: 7
+    index: 2
+  - val: 207
+    index: 29
+  - val: 122
+    index: 43
+  - val: 213
+    index: 4
+  - val: 118
+    index: 13
+  - val: 89
+    index: 37
+  - val: 165
+    index: 19
+  - val: 4
+    index: 19
+  - val: 128
+    index: 19
+  - val: 1
+    index: 19
+  - val: 32
+    index: 19
+  - val: 12
+    index: 3
+  - val: 132
+    index: 19
+  - val: 33
+    index: 19
+  - val: 39
+    index: 2
+  - val: 148
+    index: 1
+  - val: 90
+    index: 46
+  - val: 231
+    index: 16
+  - val: 74
+    index: 36
+  - val: 238
+    index: 33
+  - val: 182
+    index: 7
+  - val: 125
+    index: 28
+  - val: 145
+    index: 1
+  - val: 34
+    index: 2
+  - val: 139
+    index: 6
+  - val: 69
+    index: 0
+  - val: 180
+    index: 1
+  - val: 135
+    index: 2
+  - val: 141
+    index: 3
+  - val: 209
+    index: 4
+  - val: 54
+    index: 7
+  - val: 49
+    index: 1
+  - val: 143
+    index: 6
+  - val: 44
+    index: 3
+  - val: 45
+    index: 3
+  - val: 134
+    index: 2
+  - val: 83
+    index: 38
+  - val: 173
+    index: 3
+  - val: 161
+    index: 19
+  - val: 218
+    index: 40
+  - val: -1
+    index: 47
+  - val: 186
+    index: 39
+--- !u!212 &212578052213594594
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1624523026016378}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.16, y: 0.16}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
